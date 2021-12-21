@@ -57,7 +57,7 @@ checkstyle {
 }
 sonarqube {
     properties {
-        property "sonar.projectKey", "applibgroup_VerificationView"
+        property "sonar.projectKey", "applibgroup_VerificationCodeView"
         property "sonar.organization", "applibgroup"
         property "sonar.host.url", "https://sonarcloud.io/"
         property "sonar.sources", "entry,verificationview"

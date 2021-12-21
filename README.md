@@ -11,7 +11,7 @@ VerificationView is a library which provides verification code where a
 verification code is a security protection method used by form owners to 
 avoid Internet robots from abusing and spamming their forms
 
-<img src="screenshot/VerificationView.gif" width="500">
+<img src="Screenshot/VerificationView.gif" width="500">
 
 
 ## Dependency

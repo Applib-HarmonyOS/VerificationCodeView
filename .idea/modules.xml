@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VerificationCodeView.iml" filepath="$PROJECT_DIR$/VerificationCodeView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VerificationView.iml" filepath="$PROJECT_DIR$/.idea/modules/VerificationView.iml" group="VerificationView" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entry/entry.iml" filepath="$PROJECT_DIR$/.idea/modules/entry/entry.iml" group="VerificationView/entry" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/verificationview.iml" filepath="$PROJECT_DIR$/.idea/modules/library/verificationview.iml" group="VerificationView/verificationview" />
     </modules>
   </component>
 </project>

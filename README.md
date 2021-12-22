@@ -70,28 +70,28 @@ super.setUIContent(ResourceTable.Layout_ability_main);
         });
 ```
 
-### The description of the corresponding method
+# Description of the corresponding method
 
-| Method | Description |
-| :--------------------------------------: | :------- -----------------: |
-| setShowInterferenceLines(boolean showInterferenceLines) | Set whether to display interference lines, the default display |
-| setShowInterferenceCircles(boolean showInterferenceCircles) | Set whether to display interference circles, the default display |
-| setTextBold(boolean textBold) | Set whether the verification code text is bold, the default is not bold |
-| setCircleColorRandom(boolean circleColorRandom) | Set whether the interference dot is a random color, the default is random |
-| setLineColorRandom(boolean lineColorRandom) | Set whether the interference line color is random, the default is random |
-| setVerificationText(String verificationText) | Set verification code text content |
-| setVerificationCodeBackground(int verificationCodeBackground) | Set the background color of the verification code, the default is gray |
-| setInterferenceLinesCount(int interferenceLinesCount) | Set the number of interference lines, the default is 10 |
-| setInterferenceLinesColor(int interferenceLinesColor) | Set the color of interference lines, if the color is set, the color is no longer |
-| setInterferenceLinesWidth(float interferenceLinesWidth) | Set the width of interference lines, the default is 3 |
-| setInterferenceCirclesCount(int interferenceCirclesCount) | Set the number of interference circles |
-| setInterferenceCirclesColor(int interferenceCirclesColor) | Set the color of the interference circle, if set, it will no longer be random |
-| setInterferenceCirclesRadius(float interferenceCirclesRadius) | Set the radius of the interference circle, the default is 5 |
-| setTextColor(int textColor) | Set the verification code text, the default is black |
-| setTextSize(int textSize) | Set the text size of the verification code |
-| setUnderLine(boolean underLine) | Set whether the verification code text is underlined |
-| setTextSkewX(float textSkewX) | Set the slanting value of the verification code text, positive numbers slanting to the left, negative numbers slanting to the right, the default is 0 |
-| setStrokeWidth(float strokeWidth) | Set the width of the verification code text |
+|                    Method                   |             Description             |
+| :--------------------------------------: | :------------------------: |
+| setShowInterferenceLines(boolean showInterferenceLines) |      Set whether to display interference lines, the default display       |
+| setShowInterferenceCircles(boolean showInterferenceCircles) |      Set whether to display interference dots, the default display       |
+|      setTextBold(boolean textBold)       |     Set whether the verification code text is bold or not, the default is not bold      |
+| setCircleColorRandom(boolean circleColorRandom) |    Set whether the interference dot is a random color, the default is random     |
+| setLineColorRandom(boolean lineColorRandom) |    Set whether the interference line color is random, the default is random     |
+| setVerificationText(String verificationText) |         Set the text content of the verification code          |
+| setVerificationCodeBackground(int verificationCodeBackground) |      Set the background color of the verification code, the default is gray       |
+| setInterferenceLinesCount(int interferenceLinesCount) |      Set the number of interference lines, the default is 10      |
+| setInterferenceLinesColor(int interferenceLinesColor) |  Set the color of the interference line, if the color is set, the color is no longer   |
+| setInterferenceLinesWidth(float interferenceLinesWidth) |       Set the width of the interference line, the default is 3      |
+| setInterferenceCirclesCount(int interferenceCirclesCount) |        Set the number of interference dots          |
+| setInterferenceCirclesColor(int interferenceCirclesColor) |    Set the color of the interference dots, if set, it will no longer be random    |
+| setInterferenceCirclesRadius(float interferenceCirclesRadius) |       Set the radius of the interference dot, the default is 5       |
+|       setTextColor(int textColor)        |        Set the verification code text, the default is black        |
+|        setTextSize(int textSize)         |         Set the text size of the verification code          |
+|     setUnderLine(boolean underLine)      |       Set whether the verification code text is underlined       |
+|      setTextSkewX(float textSkewX)       | Set the slanting value of the verification code text, positive numbers slanting to the left, negative numbers slanting to the right, the default is 0 |
+|    setStrokeWidth(float strokeWidth)     |         Set the width of the verification code text         |
 
 ## Future Work
 

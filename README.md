@@ -48,7 +48,6 @@ avoid Internet robots from abusing and spamming their forms
       zhangym:isShowInterferenceLines="true"
       zhangym:isTextBold="true"
       zhangym:textSize="26fp"
-      zhangym:textSkewX="0"
       zhangym:verificationText="9D27" />
 ```
 

@@ -32,8 +32,9 @@ import java.util.Random;
  * MainAbilitySlice.
  */
 public class MainAbilitySlice extends AbilitySlice {
-    private VerificationCodeView mCodeView;
+    private static final int duration = 3000;
     private final Random mRandom = new SecureRandom();
+    private VerificationCodeView mCodeView;
     private TextField etUsername;
     private TextField etPassword;
     private TextField etVerification;
@@ -66,7 +67,6 @@ public class MainAbilitySlice extends AbilitySlice {
     }
 
     private void login() {
-        int duration = 3000;
         String userName = etUsername.getText().toString().trim();
         String password = etPassword.getText().toString().trim();
         String verification = etVerification.getText().toString().trim();

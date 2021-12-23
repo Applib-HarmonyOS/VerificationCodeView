@@ -90,7 +90,6 @@ super.setUIContent(ResourceTable.Layout_ability_main);
 |       setTextColor(int textColor)        |        Set the verification code text, the default is black        |
 |        setTextSize(int textSize)         |         Set the text size of the verification code          |
 |     setUnderLine(boolean underLine)      |       Set whether the verification code text is underlined       |
-|      setTextSkewX(float textSkewX)       | Set the slanting value of the verification code text, positive numbers slanting to the left, negative numbers slanting to the right, the default is 0 |
 |    setStrokeWidth(float strokeWidth)     |         Set the width of the verification code text         |
 
 ## Future Work

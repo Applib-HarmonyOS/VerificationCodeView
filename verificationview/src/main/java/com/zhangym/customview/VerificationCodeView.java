@@ -44,12 +44,6 @@ public class VerificationCodeView extends Component implements Component.DrawTas
     private boolean isTextBold;
 
     /**
-     * The slope of the text, positive numbers are left slanting, negative numbers are right slanting,
-     * the default is 0f.
-     */
-    private float mTextSkewX = 0f;
-
-    /**
      * TextWidth.
      */
     private float mStrokeWidth;
@@ -414,24 +408,6 @@ public class VerificationCodeView extends Component implements Component.DrawTas
     }
 
     /**
-     * Get the slant value of the text.
-     *
-     * @return returns a tilt value of float type.
-     */
-    public float getTextSkewX() {
-        return mTextSkewX;
-    }
-
-    /**
-     * Set the slant value of the text.
-     *
-     * @param textSkewX The skew value of the text.
-     */
-    public void setTextSkewX(float textSkewX) {
-        mTextSkewX = textSkewX;
-    }
-
-    /**
      * Get the width value of the text.
      *
      * @return returns a float type width value.
@@ -467,7 +443,6 @@ public class VerificationCodeView extends Component implements Component.DrawTas
         mStrokeWidth = AttrUtils.getFloatFromAttr(attrs, "strokeWidth", 0);
         mTextColor = AttrUtils.getColorFromAttr(attrs, "textColor", Color.BLACK.getValue());
         mTextSize = AttrUtils.getDimensionFromAttr(attrs, "textSize", 16);
-        mTextSkewX = AttrUtils.getFloatFromAttr(attrs, "textSkewX", 0);
         isShowInterferenceCircles = AttrUtils.getBooleanFromAttr(attrs, "isShowInterferenceCircles", true);
         isCircleColorRandom = false;
         mInterferenceCirclesColor = AttrUtils.getColorFromAttr(attrs, "interferenceCirclesColor",

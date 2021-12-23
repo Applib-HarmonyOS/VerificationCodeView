@@ -103,7 +103,6 @@
                 zhangym:isShowInterferenceLines="true"
                 zhangym:isTextBold="true"
                 zhangym:textSize="26fp"
-                zhangym:textSkewX="0"
                 zhangym:verificationText="9D27" />
 
         </DirectionalLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:zhangym="http://schemas.huawei.com/hap/res-auto"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="50vp"
+        ohos:margin="10vp"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:width="match_content"
+            ohos:height="50vp"
+            ohos:text="$string:tv_username"
+            ohos:text_size="40fp" />
+
+        <TextField
+            ohos:id="$+id:et_username"
+            ohos:width="match_parent"
+            ohos:height="50vp"
+            ohos:left_margin="5vp"
+            ohos:right_margin="5vp"
+            ohos:background_element="$graphic:textfield_bg"
+            ohos:text_input_type="pattern_text"
+            ohos:text_size="35fp" />
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="50vp"
+        ohos:bottom_margin="5vp"
+        ohos:left_margin="10vp"
+        ohos:right_margin="10vp"
+        ohos:top_margin="25vp"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:width="match_content"
+            ohos:height="50vp"
+            ohos:text="$string:tv_password"
+            ohos:text_size="40fp" />
+
+        <TextField
+            ohos:id="$+id:et_password"
+            ohos:width="match_parent"
+            ohos:height="50vp"
+            ohos:left_margin="5vp"
+            ohos:right_margin="5vp"
+            ohos:background_element="$graphic:textfield_bg"
+            ohos:text_input_type="pattern_password"
+            ohos:text_size="35fp" />
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="50vp"
+        ohos:bottom_margin="5vp"
+        ohos:left_margin="10vp"
+        ohos:right_margin="10vp"
+        ohos:top_margin="25vp"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:width="match_content"
+            ohos:height="50vp"
+            ohos:layout_alignment="vertical_center"
+            ohos:text="$string:tv_verification"
+            ohos:text_size="40fp"/>
+
+        <DirectionalLayout
+            ohos:width="match_parent"
+            ohos:height="50vp"
+            ohos:orientation="horizontal"
+            ohos:total_weight="2">
+
+            <TextField
+                ohos:id="$+id:et_verification"
+                ohos:width="0vp"
+                ohos:height="50vp"
+                ohos:left_margin="5vp"
+                ohos:right_margin="5vp"
+                ohos:weight="1"
+                ohos:background_element="$graphic:textfield_bg"
+                ohos:text_input_type="pattern_number"
+                ohos:text_size="35fp" />
+
+            <com.zhangym.customview.VerificationCodeView
+                ohos:id="$+id:verificationCodeView"
+                ohos:width="0vp"
+                ohos:height="50vp"
+                ohos:weight="1"
+                zhangym:interferenceCirclesCount="40"
+                zhangym:interferenceCirclesRadius="5"
+                zhangym:interferenceLinesCount="8"
+                zhangym:isShowInterferenceCircles="true"
+                zhangym:isShowInterferenceLines="true"
+                zhangym:isTextBold="true"
+                zhangym:textSize="26fp"
+                zhangym:verificationText="9D27" />
+
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:btn_login"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:left_margin="10vp"
+        ohos:background_element="$graphic:textfield_bg"
+        ohos:text="$string:btn_login"
+        ohos:text_color="#FFFFFF"
+        ohos:top_margin="25vp"
+        ohos:text_size="40fp" />
+
+</DirectionalLayout>

@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "VerificationCodeView"
+    },
+    {
+      "name": "mainability_description",
+      "value": "VerificationCodeView Ability"
+    },
+    {
+      "name": "mainability_VerificationCodeView",
+      "value": "VerificationCodeView"
+    }
+  ]
+}

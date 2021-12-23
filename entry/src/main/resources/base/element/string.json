@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "VerificationCodeView"
+    },
+    {
+      "name": "mainability_description",
+      "value": "VerificationCodeView Ability"
+    },
+    {
+      "name": "mainability_VerificationCodeView",
+      "value": "VerificationCodeView"
+    },
+    {
+      "name": "btn_login",
+      "value": "Login"
+    },
+    {
+      "name": "tv_username",
+      "value": "Username"
+    },
+    {
+      "name": "tv_password",
+      "value": "Password"
+    },
+    {
+      "name": "tv_verification",
+      "value": "Verify code"
+    }
+  ]
+}

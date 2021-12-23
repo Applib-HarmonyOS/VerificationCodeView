@@ -93,4 +93,4 @@ super.setUIContent(ResourceTable.Layout_ability_main);
 
 ## Future Work
 
-zhangym:textSkewX is currently not supported as there is no API mapping for mPaint.setTextSkewX(mTextSkewX); . Once HarmonyOS platform includes this API, then this feature can be suported in this library.
+zhangym:textSkewX is currently not supported as there is no API mapping for mPaint.setTextSkewX(float); . Once HarmonyOS platform includes this API, then this feature can be suported in this library.

@@ -145,12 +145,6 @@ public class ExampleOhosTest {
        assertTrue(codeView.isUnderLine());
     }
     @Test
-    public void testSetTextSkewX()
-    {
-       codeView.setTextSkewX(6f);
-       assertNotEquals(7f, codeView.getTextSkewX());
-    }
-    @Test
     public void testSetStrokeWidth()
     {
        codeView.setStrokeWidth(20f);

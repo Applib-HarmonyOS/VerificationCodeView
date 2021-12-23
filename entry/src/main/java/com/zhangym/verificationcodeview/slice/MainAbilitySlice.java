@@ -32,7 +32,7 @@ import java.util.Random;
  * MainAbilitySlice.
  */
 public class MainAbilitySlice extends AbilitySlice {
-    private static final int duration = 3000;
+    private static final int DURATION = 3000;
     private final Random mRandom = new SecureRandom();
     private VerificationCodeView mCodeView;
     private TextField etUsername;
@@ -73,12 +73,12 @@ public class MainAbilitySlice extends AbilitySlice {
         ToastDialog toastDialog = new ToastDialog(getContext());
         if (TextTool.isNullOrEmpty(userName) || TextTool.isNullOrEmpty(password)
                 || TextTool.isNullOrEmpty(verification)) {
-            toastDialog.setText("Please enter complete information").setDuration(duration).show();
+            toastDialog.setText("Please enter complete information").setDuration(DURATION).show();
         } else {
             if (!mCodeView.getVerificationText().equals(verification)) {
-                toastDialog.setText("verfication code error").setDuration(duration).show();
+                toastDialog.setText("verfication code error").setDuration(DURATION).show();
             } else {
-                toastDialog.setText("login successful!").setDuration(duration).show();
+                toastDialog.setText("login successful!").setDuration(DURATION).show();
             }
         }
     }

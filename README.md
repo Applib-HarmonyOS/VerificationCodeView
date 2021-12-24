@@ -1,3 +1,5 @@
+[![.github/workflows/main.yml](https://github.com/applibgroup/VerificationCodeView/actions/workflows/main.yml/badge.svg)](https://github.com/applibgroup/VerificationCodeView/actions/workflows/main.yml)  [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=applibgroup_VerificationCodeView&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=applibgroup_VerificationCodeView)
+
 # VerificationView
 
 A HMOS library which provides Verification code features.
@@ -26,10 +28,17 @@ avoid Internet robots from abusing and spamming their forms
 ```
 2. For using verificationview in separate application using har file, add the har file in the entry/libs folder and add the dependencies in entry/build.gradle file.
 ```groovy
-	dependencies {
-		implementation fileTree(dir: 'libs', include: ['*.har'])
-		testImplementation 'junit:junit:4.13'
-	}
+    dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.har'])
+    testImplementation 'junit:junit:4.13'
+}
+```
+3. For using verificationview from a remote repository in separate application, add the below dependencies in entry/build.gradle file.
+``` groovy
+    dependencies {
+    implementation ('dev.applibgroup:verificationcodeview:1.0.0')
+    testCompile 'junit:junit:4.13'
+}
 ```
 
 ## Usage

@@ -31,6 +31,13 @@ avoid Internet robots from abusing and spamming their forms
 		testImplementation 'junit:junit:4.13'
 	}
 ```
+3. For using verificationview from a remote repository in separate application, add the below dependencies in entry/build.gradle file.
+``` groovy
+    dependencies {
+    implementation ('dev.applibgroup:verificationcodeview:1.0.0')
+    testCompile 'junit:junit:4.13'
+}
+```
 
 ## Usage
 ### Include following code in your layout
